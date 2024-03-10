@@ -108,8 +108,8 @@ if __name__ == "__main__":
             print(f"{day}: {', '.join(names)}")
 
     # Sample data
-    book.add_record(Record("John", "1234567890"))
-    book.add_record(Record("Jane", "9876543210"))
+    book.add_record(Record("John", "1122334455"))
+    book.add_record(Record("Jane", "6677889900"))
 
     # Command processing loop
     while True:
