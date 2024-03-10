@@ -67,7 +67,7 @@ class AddressBook:
 
     def get_birthdays_per_week(self):
         today = datetime.today().date()
-        next_week = today + timedelta(days=7)
+        next_week = today + timedelta(days=5)
         birthdays_per_week = defaultdict(list)
 
         for name, record in self.data.items():
